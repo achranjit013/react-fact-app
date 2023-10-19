@@ -113,16 +113,15 @@ ul {
   height: calc(100vh - 48px - 68px - 40px);
 }
 
+section {
+  overflow: scroll;
+}
+
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
-
-    height: 100vh;
+    height: auto;
   }
-}
-
-section {
-  overflow: scroll;
 }
 
 .fact {
@@ -241,4 +240,23 @@ section {
   color: red;
   font-weight: 600;
   margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 24px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .fact-form {
+    padding: 16px;
+  }
+
+  .fact {
+    padding: 12px 16px;
+  }
 }
