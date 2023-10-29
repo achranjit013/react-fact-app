@@ -23,7 +23,7 @@ Welcome to Facts-List, your go-to platform for discovering, sharing, and discuss
 
 ## Introduction
 
-Fact-List offers a dynamic and interactive experience that revolves around the fascinating world of facts. Here's what you can do with Facts-List:
+Facts-List offers a dynamic and interactive experience that revolves around the fascinating world of facts. Here's what you can do with Facts-List:
 
 1. **Explore a Repository of Knowledge:**
    - Dive into a rich collection of facts that have been contributed by our community. Discover intriguing insights, fun trivia, and enlightening tidbits.
