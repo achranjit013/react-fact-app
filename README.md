@@ -32,10 +32,10 @@ Fact-List offers a dynamic and interactive experience that revolves around the f
    - Contribute your own facts to the platform using our user-friendly form. Share the fact, and its source URL, and categorize it to enhance accessibility.
 
 3. **Quality Control with URL Validation:**
-   - To ensure the accuracy of the information, Fact-List validates the provided URL before allowing you to post a fact. This helps maintain the credibility of our shared knowledge.
+   - To ensure the accuracy of the information, Facts-List validates the provided URL before allowing you to post a fact. This helps maintain the credibility of our shared knowledge.
 
 4. **Personalized Fact List:**
-   - Your contributed facts will be displayed in the fact list, allowing you to share your insights with the Fact-List community.
+   - Your contributed facts will be displayed in the facts list, allowing you to share your insights with the Facts-List community.
 
 5. **Category-Based Fact Filtering:**
    - Customize your browsing experience by selecting a category from the menu. Discover facts that align with your interests.
@@ -47,9 +47,9 @@ Fact-List offers a dynamic and interactive experience that revolves around the f
    - Facts are presented in descending order based on user likes. The most liked facts take the spotlight, allowing users to uncover the most intriguing and engaging content.
 
 8. **Resolving Disputes:**
-   - In the spirit of intellectual discourse, facts that receive more dislikes than likes are considered disputed. Facts-List encourages balanced discussions and debates.
+   - In the spirit of intellectual discourse, facts that receive more dislikes than likes are considered disputed.
 
-Facts-List is not just a platform for sharing knowledge; it's a hub for sparking curiosity, facilitating discussions, and celebrating the diversity of facts. Join our community and let the journey of discovery begin!
+Facts-List is not just a platform for sharing knowledge; it's a hub for sparking curiosity, and celebrating the diversity of facts. Join our community and let the journey of discovery begin!
 
 To get started, follow the installation and usage instructions below.
 
