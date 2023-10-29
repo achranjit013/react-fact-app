@@ -149,7 +149,7 @@ We welcome and appreciate contributions from the open-source community. If you'd
 
 ### Reporting Issues
 
-If you encounter a bug, have a feature request, or come across any issues while using Facts_list, please open an issue on our [GitHub repository](https://github.com/achranjit013/react-fact-app/issues). Provide as much detail as possible to help us understand and address the problem.
+If you encounter a bug, have a feature request, or come across any issues while using Facts-list, please open an issue on our [GitHub repository](https://github.com/achranjit013/react-fact-app/issues). Provide as much detail as possible to help us understand and address the problem.
 
 ### Making Code Contributions
 
@@ -163,42 +163,32 @@ If you're a developer and would like to contribute code to Facts-List, follow th
 
    ```bash
    git clone https://github.com/achranjit013/react-fact-app.git
-   git checkout -b feature/your-feature-name
-
 
 3. **Create a New Branch:**
-
    - Create a new branch for your contributions. Use a descriptive name that reflects the purpose of your work.
      git checkout -b feature/your-feature-name
 
 4. **Make Changes:**
-
    - Implement your desired changes and improvements in your branch.
 
 5. **Test Your Changes:**
-
    - Ensure that your changes work as expected and do not introduce new issues.
 
 6. **Commit Your Changes:**
-
    - Commit your changes with clear and concise commit messages.
      git commit -m "Add feature/fix: Describe your changes"
 
 7. **Push to Your Fork:**
-
    - Push your changes to your GitHub fork.
      git push origin feature/your-feature-name
 
 8. **Create a Pull Request:**
-
    - Create a pull request from your branch to the main repository. Provide a detailed description of your changes and the problem they solve.
 
 9. **Review and Collaboration:**
-
    - Participate in the discussion and review process. Address any feedback or suggestions from maintainers.
 
 10. **Merge Your Contribution:**
-
     - Once your pull request is approved, it will be merged into the main repository.
 
 Thank you for considering contributing to Facts-List. Your contributions are essential to making this platform a valuable resource for knowledge sharing and exploration.
@@ -232,19 +222,18 @@ To deploy Facts-List and make it accessible to others, you can follow these step
   You can choose from various hosting options to deploy Facts-List. Some popular choices include:
   
   **Static Hosting Services:**
-  
   Utilize static hosting services like Netlify, Vercel, GitHub Pages, or AWS S3. They are well-suited for hosting single-page applications like Facts-List
   Custom Server:
   
   If you prefer to deploy Facts-List on your own server or infrastructure, you can configure a web server (e.g., Nginx, Apache) to serve the static build files.
-  **Docker Containers:**
   
+  **Docker Containers:**
   Containerization platforms like Docker can simplify deployment by packaging the application and its dependencies into a container image.
+  
   **Deployment Steps**
-  The specific steps for deployment depend on the hosting option you choose. Please refer to the documentation of your chosen hosting service or server for detailed instructions on how to     deploy a static website.
+  The specific steps for deployment depend on the hosting option you choose. Please refer to the documentation of your chosen hosting service or server for detailed instructions on how to deploy a static website.
   
   **Keep in mind the following general deployment considerations:**
-  
   Configure your domain or subdomain to point to the deployed site's URL.
   Set up any required environment variables for your deployment, such as API endpoints or configuration settings.
   Consider SSL/TLS to secure your deployed site.
@@ -253,11 +242,9 @@ To deploy Facts-List and make it accessible to others, you can follow these step
   For contributors and developers interested in the project, check the "Contributing" section above to learn how you can get involved.
 
   ## Troubleshooting
-
 If you encounter any issues or have questions while using Facts-List, refer to the following troubleshooting tips:
 
 ### Common Issues and Solutions
-
 1. **Page Not Loading:**
    - If the Facts-List page doesn't load as expected, first check your internet connection. If the issue persists, try clearing your browser cache and reloading the page.
 
