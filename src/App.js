@@ -56,13 +56,14 @@ function App() {
   const [facts, setFacts] = useState([]);
   const [curretCategory, setCurretCategory] = useState("All");
   const [isLoading, setIsLoading] = useState(false);
+  const [initialMessage, setInitialMessage] = useState("");
 
   useEffect(() => {
     const getFacts = async () => {
       setIsLoading(true);
+      setInitialMessage("");
 
       let query = supabase.from("facts").select("*");
-
       if (curretCategory !== "All") {
         query = query.eq("category", curretCategory);
       }
@@ -74,7 +75,9 @@ function App() {
       if (!error) {
         setFacts(facts);
       } else {
-        window.alert("Sorry, there was a problem while loading the data!!!");
+        setInitialMessage(
+          "Sorry, there was a problem while loading the data!!!"
+        );
       }
       setIsLoading(false);
     };
@@ -114,7 +117,12 @@ function App() {
         {isLoading ? (
           <Loader />
         ) : (
-          <FactList facts={facts} setFacts={setFacts} categories={categories} />
+          <FactList
+            facts={facts}
+            setFacts={setFacts}
+            categories={categories}
+            initialMessage={initialMessage}
+          />
         )}
       </main>
     </div>

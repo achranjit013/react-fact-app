@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import supabase from "./supabase";
 
-export const FactList = ({ facts, setFacts, categories }) => {
+export const FactList = ({ facts, setFacts, categories, initialMessage }) => {
   const handleVotes = async (votes, rowID, column) => {
     const { data: updatedFacts, error } = await supabase
       .from("facts")
@@ -17,7 +17,9 @@ export const FactList = ({ facts, setFacts, categories }) => {
   return (
     <section>
       <ul className="fact-list">
-        {facts.length === 0 ? (
+        {initialMessage !== "" ? (
+          <p className="message">{initialMessage}</p>
+        ) : facts.length === 0 ? (
           <p className="message">
             Sorry, there is no any data for the selected category. Please share
             one to view!!!
