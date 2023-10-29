@@ -23,7 +23,7 @@ Welcome to Facts-List, your go-to platform for discovering, sharing, and discuss
 
 ## Introduction
 
-Fact-List offers a dynamic and interactive experience that revolves around the fascinating world of facts. Here's what you can do with FactHub:
+Fact-List offers a dynamic and interactive experience that revolves around the fascinating world of facts. Here's what you can do with Facts-List:
 
 1. **Explore a Repository of Knowledge:**
    - Dive into a rich collection of facts that have been contributed by our community. Discover intriguing insights, fun trivia, and enlightening tidbits.
@@ -153,10 +153,10 @@ If you encounter a bug, have a feature request, or come across any issues while 
 
 ### Making Code Contributions
 
-If you're a developer and would like to contribute code to FactHub, follow these steps:
+If you're a developer and would like to contribute code to Facts-List, follow these steps:
 
 1. **Fork the Repository:**
-   - Start by forking the [FactHub repository](https://github.com/achranjit013/react-fact-app) to your own GitHub account.
+   - Start by forking the [Facts-List repository](https://github.com/achranjit013/react-fact-app) to your own GitHub account.
 
 2. **Clone Your Fork:**
    - Clone your forked repository to your local development environment.
