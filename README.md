@@ -207,6 +207,11 @@ For licensing and usage information, please check the "License" section in this 
 
 ##Licensing
 
+You are free to use this project for personal or commercial purposes.
+You can modify, distribute, or sublicense the project.
+Attribution is not required, but it is greatly appreciated.
+This project is provided "as is" with no warranties or guarantees. The author and contributors are not liable for any issues or damages related to the use of the project.
+
 ## Deployment
 
 To deploy Facts-List and make it accessible to others, you can follow these steps:
